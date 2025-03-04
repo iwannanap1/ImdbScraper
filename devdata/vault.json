@@ -1,7 +1,7 @@
 {
     "email": {
         "email_sender": "abc@gmail.com",
-        "email_password": "generated pw",
+        "email_password": "mail generated pw",
         "email_receivers": ["xyz@gmail.com","pqr@gmail.com"]
     }
 }
