@@ -255,3 +255,6 @@ class ImdbComponent(QRComponent):
         excel_path = "movies_data.xlsx"
         df.to_excel(excel_path, index=False)
         conn.close()
+
+    def close_bowser(self):
+        self.browser.close_all_browsers()
