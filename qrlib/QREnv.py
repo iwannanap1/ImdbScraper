@@ -57,7 +57,7 @@ class QREnv:
     # Vault items are fetched. However, queues and storage buckets are only checked if they are accessible
     QUEUE_NAMES = []
     STORAGE_NAMES = []
-    VAULT_NAMES = []
+    VAULT_NAMES = ["email"]
 
     # Retrieved vault items are set in this dictionary
     VAULTS = {}
